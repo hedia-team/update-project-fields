@@ -1,7 +1,7 @@
 # titoportas/update-project-fields
 
 Use this action to automatically update [GitHub project (beta)](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects) item fields.
-Note that this action *does not support [GitHub projects (classic)](https://docs.github.com/en/issues/organizing-your-work-with-project-boards)*.
+Note that this action _does not support [GitHub projects (classic)](https://docs.github.com/en/issues/organizing-your-work-with-project-boards)_.
 
 _The main difference between this lib and others is that you can use a PAT with repo and project scopes instead of org scope._
 
@@ -82,4 +82,5 @@ of Node (see "engines" in this action's package.json for details).
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
 
 # Special mentions
+
 I want to say thanks to the authors and contributors of [add-to-project](https://github.com/actions/add-to-project) and [project-update](https://github.com/austenstone/project-update). This Github action is based on both github projects.
